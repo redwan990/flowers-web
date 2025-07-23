@@ -1,0 +1,59 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  height: 71px;
+gap: auto;
+margin: auto;
+margin-top: 30px;
+}
+
+
+.home{
+    color: #252432;
+    font-weight: bold;
+    
+}
+.shop{
+  color:#8987A1
+}
+.about{
+  color: #8987A1
+}
+
+.menu{
+    display: flex;
+}
+
+.section{
+  
+  display: flex;
+  margin: auto;
+  max-width: 1140px;
+  height: 461px;
+  margin-top: 50px;
+}
+
+.left-side{
+
+  margin-top: 100px;
+  
+}
+
+.h5{
+  
+  font-size: xx-large;
+  
+}
+
+.fresh{
+  color: #E95A08;
+}
+
+.flowers{
+  color: #E95A08;
+}
+.p{
+  color: rgba(0, 0, 0, 0.5)
+}
