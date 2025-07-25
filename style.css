@@ -95,6 +95,7 @@ font-weight: bold;
 }
 .plant-p{
   color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
 }
 .images{
   width: 270px;
@@ -131,16 +132,27 @@ align-items: center;
   font-weight: bold;
 }
 
+.images{
+
+display: grid;
+grid-template-columns: repeat(4, 1fr );
+
+}
+
 .images22{
  display: grid;
  grid-template-columns: repeat(4, 1fr);
+ gap: 20px;
+ 
 }
+
 
 .images22 p {
    font-weight: 500;
 }
 .images22 h6{
    font-weight: bold;
+   
 }
 
 .images22 button{
@@ -354,6 +366,24 @@ opacity: .3;
    
    @media screen and (max-width:576px){
 
-          
 
-   } 
+    .mobile-res{
+      display: none;
+    }  
+    
+    .section{
+grid-template-columns: repeat(1);
+margin-bottom: 30px;
+    }
+
+    .images{
+grid-template-columns: repeat(2, 1fr);
+
+    }
+    .images22{
+      grid-template-columns: repeat(2, 1fr);
+margin-bottom: 50px;
+    }
+      }   
+
+   
