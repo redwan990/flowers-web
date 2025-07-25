@@ -289,6 +289,7 @@ opacity: .3;
   padding: 20%;
   background-size: 100%;
   
+  
 }
 .photo3:after{
   content: "";
@@ -351,3 +352,8 @@ opacity: .3;
     margin-top: 10px;
    }
    
+   @media screen and (max-width:576px){
+
+          
+
+   } 
